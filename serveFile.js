@@ -1,9 +1,9 @@
 var http = require('http'),
-		fs = require('fs');
-
+		fs = require('fs'),
+		oppressor = require('oppressor');
 var handler = function(request, response){
 	var stream = fs.createReadStream(__dirname + '/node_modules/express/lib/response.js');
-	stream.pipe(response);
+	stream.pipe(oppressor(request)).pipe(response);
 };
 
 http.createServer(handler).listen(7777, function(){

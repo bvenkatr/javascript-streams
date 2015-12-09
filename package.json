@@ -1,0 +1,26 @@
+{
+  "name": "javascript-streams",
+  "version": "0.0.1",
+  "description": "For Source: https://github.com/substack/stream-handbook#introduction",
+  "main": "serveFile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvenkatr/javascript-streams.git"
+  },
+  "author": "venkat.jaa@gamil.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvenkatr/javascript-streams/issues"
+  },
+  "homepage": "https://github.com/bvenkatr/javascript-streams#readme",
+  "dependencies": {
+    "oppressor": "0.0.1"
+  }
+}

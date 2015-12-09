@@ -1,6 +1,6 @@
 Todo
 ##Release 0.0.1
-Requirements:-
+Issues:-
 
 	1) This code works but it's bulky and buffers up the entire data.txt file into memory for every request before
 	writing the result back to clients. If data.txt is very large, your program could start eating a lot of memory
@@ -12,6 +12,11 @@ Requirements:-
 	Use nodejs streams to solve the above problem
 
 ##Release 0.0.2
+Solved:-
+
+	Issues in release .0.01 has been solved
+
 Requirements:-
 
 	1) compress the before sending to the clinet
+

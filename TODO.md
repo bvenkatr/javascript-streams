@@ -18,5 +18,5 @@ Solved:-
 
 Requirements:-
 
-	1) compress the before sending to the clinet
+	1) compress it before sending to the clinet
 
